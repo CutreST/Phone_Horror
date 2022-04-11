@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phone_horror>
+    <dialogs>
+        <dial_group id="test_1">
+            <dial id="first">
+                <sent>Hola tío, ¿cómo estás?</sent>
+                <sent>Esto es una simple prueba para cargar.</sent>
+                <sent>A ver qué tal</sent>
+            </dial>
+            <dial id="second">
+                <sent>Y ahora la segunda</sent>
+                <sent>Tendría que ser facilita</sent>
+                <sent>No sé, no sé</sent>
+            </dial>
+        </dial_group>
+        <dial_group id="test_2">
+            <dial id="first">
+                <sent>Tres mismas frases</sent>
+                <sent>Y demás mierda</sent>
+                <sent>Ya sabes cómo va esto</sent>
+            </dial>
+            <dial id="second">
+                <sent>Y ahora la segunda</sent>
+                <sent>lalalalalala</sent>
+                <sent>No sé, no sé</sent>
+            </dial>
+        </dial_group>
+    </dialogs>
+    <choices>
+        <choice_group id="test_1">
+            <choice id="first">
+                <sent>Choice 1 maaaaan</sent>
+                <sent>Choice 2 maaaaan</sent>
+                <sent>Choice 3 maaaaan</sent>
+            </choice>
+            <choice id="second">
+                <sent>My choice</sent>
+                <sent>Your choice</sent>
+                <sent>They choice</sent>
+            </choice>
+        </choice_group>
+    </choices>
+</phone_horror>
